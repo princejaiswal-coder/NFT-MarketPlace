@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-nav li {
+  font-size: 14px;
+  padding: 0 20px 0 20px;
+}
+.search_bar input {
+  height: 35px;
+  width: 18em;
+  border-radius: 15px;
+}
+.search_bar a {
+  position: relative;
+  border: none;
+  right: 3.5em;
+}
+
+/* Wallet Button  */
+.wallet {
+  position: relative;
+  overflow: hidden;
+}
+.wallet_btn {
+  transition: background 0.3s linear;
+  border-radius: 10px;
+}
+.wallet:hover .shine {
+    transform: skewX(20deg) translateX(300px);
+  }
+
+.shine {
+  position: absolute;
+  top: 0;
+  left: -70px;
+  height: 98px;
+  width: 50px;
+  background: rgba(255, 255, 255, 0.4);
+  transition: all 0.4s linear;
+  transform: skewX(20deg) translateX(0);
+}
