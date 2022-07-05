@@ -97,3 +97,78 @@ body {
 .spons_comp img {
   display: inline-block;
 }
+/* NFT Marketplace  */
+.nft_market_drop_head{
+  margin-top: 3em;
+  text-align: center;
+}
+.nft_market_drop_head span{
+  color: #9d00ea;
+  font-weight: 600;
+}
+.nft_market_drop_head h2{
+  color: #fff;
+}
+
+.choose_nft{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.choose_nft button{
+  border: none;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px 20px 10px 20px;
+  background: #061033;
+  color: #2d5afa;
+}
+.choose_nft button:hover{
+  border: 1px solid #254cd8;
+  background: #0c2065;
+  color: #2a54ec;
+  transition: 0.3s ease;
+}
+/* NFT CARD  */
+.nf_card .card{
+  padding: 12px;
+  background: #110f14;
+}
+.nf_card .card button{
+  border: none;
+  background: none;
+  float: right;
+}
+.nf_card h5{
+  color: #fff;
+}
+.nf_card p{
+  color: #eeff;
+}
+.price_text{
+  color: #1e4fff;
+  font-weight: 700;
+}
+.nft_img{
+  background: #2f283a60;
+  border-radius: 20px;
+}
+.price_text img{
+  float: right;
+}
+.show_button{
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.show_button button{
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  transition: 0.4s ease all;
+}
+.show_button button:hover{
+  background: #2e1c44;
+}
