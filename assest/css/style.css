@@ -11,6 +11,22 @@ body {
       rgba(61, 35, 83, 1) 88%);
 }
 
+/* Button  */
+.primary_button{
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #1e50ff;
+}
+.primary_button_outline{
+  border: 1px solid #fff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: transparent;
+}
+
 /* Navbar  */
 .navbar-nav li {
   font-size: 14px;
@@ -239,10 +255,29 @@ body {
   width: 20em;
   height: 3em;
 }
-.newsletter_filling button{
-  border: none;
-  padding: 10px 20px 10px 20px;
-  border-radius: 20px;
+/* creator card  */
+.creator_how_header{
+  margin-top: 50px;
+  text-align: center;
+}
+.creator_how_header h3{
   color: #fff;
-  background-color: #1e50ff;
+}
+.creator_how_header span{
+  color: rgb(134, 32, 186);
+  font-weight: 600;
+}
+.creator_how .card-body{
+  text-align: center;
+}
+.creator_how .card {
+  padding: 5px;
+  background: #0f0f10;
+  border-radius: 30px;
+  width: 19rem;
+  height: 18rem;
+}
+.creator_how .card img{
+  margin: auto;
+  width: 10em;
 }
