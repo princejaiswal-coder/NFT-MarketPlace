@@ -2,35 +2,40 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background: rgb(0, 0, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 1) 6%,
-    rgba(13, 12, 34, 1) 35%,
-    rgba(61, 35, 83, 1) 88%
-  );
+  background: linear-gradient(90deg,
+      rgba(0, 0, 0, 1) 6%,
+      rgba(13, 12, 34, 1) 35%,
+      rgba(61, 35, 83, 1) 88%);
 }
+
 /* Navbar  */
 .navbar-nav li {
   font-size: 14px;
   padding: 0 20px 0 20px;
 }
+
 .navbar-nav .active {
   color: #fff !important;
 }
+
 .navbar-brand {
   color: #fff;
 }
+
 .navbar-nav li a {
   color: rgba(238, 238, 255, 0.699);
 }
+
 .search_bar input {
   height: 35px;
   width: 18em;
   border-radius: 15px;
   background: transparent;
 }
+
 .search_bar a {
   position: relative;
   border: none;
@@ -42,12 +47,14 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 .wallet_btn {
   background: #1e50ff !important;
   color: #fff;
   transition: background 0.3s linear;
   border-radius: 10px;
 }
+
 .wallet:hover .shine {
   transform: skewX(20deg) translateX(300px);
 }
@@ -67,55 +74,65 @@ body {
 .header_main img {
   border-radius: 20px;
 }
+
 .header_main h2 {
   color: #fff;
   letter-spacing: 5px;
   font-weight: 700;
   font-size: 5em;
 }
+
 .no_spam {
   justify-content: center;
   display: flex;
   flex-direction: row;
 }
+
 .no_spam p {
   padding: 0 20px 0 20px;
   color: rgba(238, 238, 255, 0.616);
 }
+
 /* Sponsorship Logo  */
-.spons_comp{
+.spons_comp {
   margin-top: 5em;
   padding: 20px;
   text-align: center;
   letter-spacing: 5em;
 }
+
 .spons_comp:after {
   content: "";
   display: inline-block;
   width: 100%;
 }
+
 .spons_comp img {
   display: inline-block;
 }
+
 /* NFT Marketplace  */
-.nft_market_drop_head{
+.nft_market_drop_head {
   margin-top: 3em;
   text-align: center;
 }
-.nft_market_drop_head span{
+
+.nft_market_drop_head span {
   color: #9d00ea;
   font-weight: 600;
 }
-.nft_market_drop_head h2{
+
+.nft_market_drop_head h2 {
   color: #fff;
 }
 
-.choose_nft{
+.choose_nft {
   display: flex;
   justify-content: center;
   padding: 20px;
 }
-.choose_nft button{
+
+.choose_nft button {
   border: none;
   border-radius: 10px;
   margin: auto;
@@ -123,45 +140,55 @@ body {
   background: #061033;
   color: #2d5afa;
 }
-.choose_nft button:hover{
+
+.choose_nft button:hover {
   border: 1px solid #254cd8;
   background: #0c2065;
   color: #2a54ec;
   transition: 0.3s ease;
 }
+
 /* NFT CARD  */
-.nf_card .card{
+.nf_card .card {
   padding: 12px;
   background: #110f14;
 }
-.nf_card .card button{
+
+.nf_card .card button {
   border: none;
   background: none;
   float: right;
 }
-.nf_card h5{
+
+.nf_card h5 {
   color: #fff;
 }
-.nf_card p{
+
+.nf_card p {
   color: #eeff;
 }
-.price_text{
+
+.price_text {
   color: #1e4fff;
   font-weight: 700;
 }
-.nft_img{
+
+.nft_img {
   background: #2f283a60;
   border-radius: 20px;
 }
-.price_text img{
+
+.price_text img {
   float: right;
 }
-.show_button{
-  display:flex;
+
+.show_button {
+  display: flex;
   justify-content: center;
   margin-top: 50px;
 }
-.show_button button{
+
+.show_button button {
   color: #fff;
   background: transparent;
   border: 1px solid #fff;
@@ -169,6 +196,53 @@ body {
   padding: 10px 20px 10px 20px;
   transition: 0.4s ease all;
 }
-.show_button button:hover{
+
+.show_button button:hover {
   background: #2e1c44;
+}
+
+/* Newsletter  */
+.newsletter {
+  margin: auto;
+  width: fit-content;
+}
+
+.newsletter_banner {
+  background: rgb(9, 21, 73);
+  background: linear-gradient(90deg, rgba(9, 21, 73, 1) 0%, rgba(7, 16, 57, 1) 79%);
+  border-radius: 20px;
+  width: fit-content;
+  height: auto;
+  padding: 5em;
+  margin-top: 20px;
+}
+
+.newsletter_banner h3 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+.newsletter_banner span{
+  color: #898ea4;
+}
+.newsletter_filling{
+  display: flex;
+  justify-content: center;
+}
+.newsletter_filling input{
+  margin-top: 20px;
+  color: #eeff;
+  border: none;
+  background: rgb(26, 35, 68);
+  border-radius: 20px;
+  padding: 5px;
+  width: 20em;
+  height: 3em;
+}
+.newsletter_filling button{
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #1e50ff;
 }
