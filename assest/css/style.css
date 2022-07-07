@@ -27,6 +27,12 @@ body {
   background-color: transparent;
 }
 
+/* Purple text  */
+.purple_text_nft{
+  color: #9d00ea;
+  font-weight: 600;
+}
+
 /* Navbar  */
 .navbar-nav li {
   font-size: 14px;
@@ -131,11 +137,6 @@ body {
 .nft_market_drop_head {
   margin-top: 3em;
   text-align: center;
-}
-
-.nft_market_drop_head span {
-  color: #9d00ea;
-  font-weight: 600;
 }
 
 .nft_market_drop_head h2 {
@@ -263,10 +264,6 @@ body {
 .creator_how_header h3{
   color: #fff;
 }
-.creator_how_header span{
-  color: rgb(134, 32, 186);
-  font-weight: 600;
-}
 .creator_how .card-body{
   text-align: center;
 }
@@ -280,4 +277,62 @@ body {
 .creator_how .card img{
   margin: auto;
   width: 10em;
+}
+
+/* Top Creator  */
+.top_creator_nft_header{
+  margin-top: 5em;
+  text-align: center;
+}
+.top_creator_nft_header h3{
+  color: #fff;
+}
+/* Card  */
+.profile_card{
+  display: flex;
+  border-radius: 20px;
+  padding: 15px;
+  background: #12101a;
+}
+.profile_card .menu img{
+  position: relative;
+  top: 5px;
+  right: -50px;
+  width: 50px;
+  height: auto;
+}
+.profile_card .menu{
+  background: transparent;
+  border: none;
+}
+.top_creator_pic img{
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+.top_creator_pic .online{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 0;
+  left: -15px;
+  background: #12101a;
+}
+.top_creator_pic{
+  display: flex;
+  
+}
+.top_creator_info{
+  margin-left: 15px;
+}
+.top_creator_info p{
+  color: #fff;
+  font-weight: 600;
+}
+.top_creator_info span{
+  color: rgba(238, 238, 255, 0.637);
+}
+.top_creator_info .ethereum_pic img{
+  width: 10px;
+  height: 20px;
 }
