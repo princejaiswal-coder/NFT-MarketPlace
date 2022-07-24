@@ -12,14 +12,15 @@ body {
 }
 
 /* Button  */
-.primary_button{
+.primary_button {
   border: none;
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
   color: #fff;
   background-color: #1e50ff;
 }
-.primary_button_outline{
+
+.primary_button_outline {
   border: 1px solid #fff;
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
@@ -28,7 +29,7 @@ body {
 }
 
 /* Purple text  */
-.purple_text_nft{
+.purple_text_nft {
   color: #9d00ea;
   font-weight: 600;
 }
@@ -239,14 +240,17 @@ body {
   color: #fff;
   text-align: center;
 }
-.newsletter_banner span{
+
+.newsletter_banner span {
   color: #898ea4;
 }
-.newsletter_filling{
+
+.newsletter_filling {
   display: flex;
   justify-content: center;
 }
-.newsletter_filling input{
+
+.newsletter_filling input {
   margin-top: 20px;
   color: #eeff;
   border: none;
@@ -256,17 +260,21 @@ body {
   width: 20em;
   height: 3em;
 }
+
 /* creator card  */
-.creator_how_header{
+.creator_how_header {
   margin-top: 50px;
   text-align: center;
 }
-.creator_how_header h3{
+
+.creator_how_header h3 {
   color: #fff;
 }
-.creator_how .card-body{
+
+.creator_how .card-body {
   text-align: center;
 }
+
 .creator_how .card {
   padding: 5px;
   background: #0f0f10;
@@ -274,43 +282,50 @@ body {
   width: 19rem;
   height: 18rem;
 }
-.creator_how .card img{
+
+.creator_how .card img {
   margin: auto;
   width: 10em;
 }
 
 /* Top Creator  */
-.top_creator_nft_header{
+.top_creator_nft_header {
   margin-top: 5em;
   text-align: center;
 }
-.top_creator_nft_header h3{
+
+.top_creator_nft_header h3 {
   color: #fff;
 }
+
 /* Card  */
-.profile_card{
+.profile_card {
   display: flex;
   border-radius: 20px;
   padding: 15px;
   background: #12101a;
 }
-.profile_card .menu img{
+
+.profile_card .menu img {
   position: relative;
   top: 5px;
   right: -50px;
   width: 50px;
   height: auto;
 }
-.profile_card .menu{
+
+.profile_card .menu {
   background: transparent;
   border: none;
 }
-.top_creator_pic img{
+
+.top_creator_pic img {
   width: 80px;
   height: 80px;
   border-radius: 20px;
 }
-.top_creator_pic .online{
+
+.top_creator_pic .online {
   width: 20px;
   height: 20px;
   position: relative;
@@ -318,21 +333,89 @@ body {
   left: -15px;
   background: #12101a;
 }
-.top_creator_pic{
+
+.top_creator_pic {
   display: flex;
-  
+
 }
-.top_creator_info{
+
+.top_creator_info {
   margin-left: 15px;
 }
-.top_creator_info p{
+
+.top_creator_info p {
   color: #fff;
   font-weight: 600;
 }
-.top_creator_info span{
+
+.top_creator_info span {
   color: rgba(238, 238, 255, 0.637);
 }
-.top_creator_info .ethereum_pic img{
+
+.top_creator_info .ethereum_pic img {
   width: 10px;
   height: 20px;
+}
+
+.community {
+  margin-top: 3em;
+  min-width: 1em;
+  min-height: 15em;
+  background: rgba(15, 16, 21, 0.51);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+  border: 1px solid rgba(15, 16, 21, 0.72);
+  text-align: center;
+  padding: 50px;
+}
+.community h2{
+  color: #fff;
+}
+.community p{
+  color: #eeff;
+}
+.community button{
+  background: #1e50ff;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px;
+}
+.community img{
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+footer{
+  margin-top: 5em;
+}
+.footer_left_1{
+  padding: 30px;
+}
+.footer_left_1 img{
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+.footer_left_1 span{
+  padding: 5px;
+  color: #eeff;
+  font-size: 16px;
+}
+.footer_left_1 p{
+  margin-top: 10px;
+  color: #b7b7b7;
+  padding: 3px;
+  font-size: 14px;
+}
+.footer_links_text{
+  color: #b7b7b7;
+}
+.footer_links_text ul{
+  list-style-type: none;
+}
+.footer_links_text span{
+  color: #fff;
 }
